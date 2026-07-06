@@ -119,3 +119,12 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+
+# Tambahan wajib untuk OrangeFox
+FOX_RECOVERY_INSTALL_PARTITION := /dev/block/by-name/boot
+FOX_RECOVERY_RAMDISK_PATH := /first_stage_ramdisk/system/bin/init
+FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER := true
+FOX_TARGET_DEVICES := Infinix-X662
+FOX_DELETE_ARBITRARY_FILES := true
+FOX_ASH_IS_BIN := true
+
