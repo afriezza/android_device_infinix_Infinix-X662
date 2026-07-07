@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from Infinix-X662 device
-$(call inherit-product, device/infinix/Infinix-X662/device.mk)
+# PASTIIN FOLDER DEVICE LU NAMANYA x662 (KECIL SEMUA)
+$(call inherit-product, device/infinix/x662/device.mk)
 
-PRODUCT_DEVICE := Infinix-X662
+PRODUCT_DEVICE := x662
 PRODUCT_NAME := omni_x662
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X662
